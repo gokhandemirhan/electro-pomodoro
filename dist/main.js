@@ -9,6 +9,10 @@ var BrowserWindow = electron.BrowserWindow;
 var path = require("path");
 var url = require("url");
 
+require("electron-reload")(__dirname, {
+  electron: electron
+});
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 var mainWindow = void 0;
@@ -25,7 +29,7 @@ function createWindow() {
   }));
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   // Emitted when the window is closed.
   mainWindow.on("closed", function () {

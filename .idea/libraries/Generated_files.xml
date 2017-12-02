@@ -2,16 +2,23 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/app/components/Buttons.js" />
+        <item url="file://$PROJECT_DIR$/dist/app/components/Pomodoro.js" />
         <item url="file://$PROJECT_DIR$/dist/app/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/app/helpers/Utils.js" />
         <item url="file://$PROJECT_DIR$/dist/main.js" />
-        <item url="file://$PROJECT_DIR$/dist/src/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/app/components/Timer.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/dist/src/index.js" />
-      <root url="file://$PROJECT_DIR$/dist/app/index.js" />
-      <root url="file://$PROJECT_DIR$/dist/main.js" />
       <root url="file://$PROJECT_DIR$/dist/src/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/app/components/Buttons.js" />
+      <root url="file://$PROJECT_DIR$/dist/app/components/Pomodoro.js" />
+      <root url="file://$PROJECT_DIR$/dist/app/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/app/helpers/Utils.js" />
+      <root url="file://$PROJECT_DIR$/dist/main.js" />
+      <root url="file://$PROJECT_DIR$/dist/app/components/Timer.js" />
     </CLASSES>
     <SOURCES />
   </library>
